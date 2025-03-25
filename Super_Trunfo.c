@@ -2,7 +2,7 @@
  
 int main() {
     char estado [2];
-    char codigo[10];
+    char código[10];
     char nome[30];
     int população;
     float área;
@@ -17,7 +17,7 @@ int main() {
 
     printf("Qual seu código (representado pela letra e um número de 01 a 04)?\n");
     getchar();
-    fgets(codigo, 10, stdin);
+    fgets(código, 10, stdin);
 
     printf("Qual o nome da sua cidade?\n");
     fgets(nome, 30, stdin);
@@ -37,7 +37,7 @@ int main() {
     printf("Perfeito! Aqui estão as informações da primeira carta:\n"); 
     printf("Nome: %s", nome);
     printf("Estado: %s\n", estado);
-    printf("Código: %s", codigo);
+    printf("Código: %s", código);
     printf("População: %d\n", população);
     printf("Área: %.2f\n", área);
     printf("PIB: %.2f\n", PIB);
